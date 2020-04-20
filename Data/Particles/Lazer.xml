@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<particleeffect>
+	<material name="Materials/Laserpart.json" />
+	<numparticles value="10" />
+	<updateinvisible enable="false" />
+	<relative enable="true" />
+	<scaled enable="true" />
+	<sorted enable="false" />
+	<fixedscreensize enable="false" />
+	<animlodbias value="0" />
+	<emittertype value="Sphere" />
+	<emittersize value="0 0 0" />
+	<direction min="-0.4 0.2 -0.4" max="0.4 1 0.4" />
+	<constantforce value="0 6 0" />
+	<dampingforce value="8" />
+	<activetime value="0" />
+	<inactivetime value="0" />
+	<emissionrate min="30" max="30" />
+	<particlesize min="0.2 0.2" max="0.4 0.4" />
+	<timetolive min="0.2" max="0.2" />
+	<velocity min="2" max="10" />
+	<rotation min="0" max="360" />
+	<rotationspeed min="-40" max="40" />
+	<sizedelta add="1" mul="6" />
+	<faceCameraMode value="Rotate XYZ" />
+	<colorfade color="1 1 1 1" time="0" />
+	<colorfade color="0 0 0 1" time="0.2" />
+	<texanim uv="0 0 1 1" time="0" />
+</particleeffect>

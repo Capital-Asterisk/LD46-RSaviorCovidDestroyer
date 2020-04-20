@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Pivot" value="0 0" />
+	<element type="Text">
+		<attribute name="Name" value="TruckHealth" />
+		<attribute name="Position" value="20 50" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Color" value="1 1 1 1" />
+		<attribute name="Font" value="Font;Fonts/Louis George Cafe.ttf" />
+		<attribute name="Font Size" value="40" />
+		<attribute name="Text" value="TRUCK" />
+		<attribute name="Shadow Offset" value="0 0" />
+		<attribute name="Stroke Thickness" value="4" />
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="CoronaHealth" />
+		<attribute name="Position" value="1260 50" />
+		<attribute name="Min Anchor" value="1 0" />
+		<attribute name="Max Anchor" value="1 0" />
+		<attribute name="Pivot" value="1 0" />
+		<attribute name="Color" value="1 1 1 1" />
+		<attribute name="Font" value="Font;Fonts/Louis George Cafe.ttf" />
+		<attribute name="Font Size" value="40" />
+		<attribute name="Text" value="COWONA" />
+		<attribute name="Text Alignment" value="Right" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="Teleport" />
+		<attribute name="Position" value="20 668" />
+		<attribute name="Size" value="200 200" />
+		<attribute name="Pivot" value="0 0" />
+		<element type="Text">
+			<attribute name="Position" value="0 12" />
+			<attribute name="Min Anchor" value="0.5 0" />
+			<attribute name="Max Anchor" value="0.5 0" />
+			<attribute name="Pivot" value="0.5 0" />
+			<attribute name="Color" value="1 1 1 1" />
+			<attribute name="Font" value="Font;Fonts/Louis George Cafe.ttf" />
+			<attribute name="Font Size" value="20" />
+			<attribute name="Text" value="TELEPORT" />
+			<attribute name="Text Alignment" value="Center" />
+		</element>
+	</element>
+	<element type="Sprite" style="Sprite">
+		<attribute name="Name" value="Truckbar" />
+		<attribute name="Position" value="20 20" />
+		<attribute name="Size" value="600 20" />
+		<attribute name="Blend Mode" value="add" />
+		<attribute name="Color" value="0 1 0 1" />
+		<attribute name="Top Left Color" value="0 1 0 1" />
+		<attribute name="Top Right Color" value="0 1 0 1" />
+		<attribute name="Bottom Left Color" value="0 1 0 1" />
+		<attribute name="Bottom Right Color" value="0 1 0 1" />
+	</element>
+	<element type="Sprite" style="Sprite">
+		<attribute name="Name" value="Coronabar" />
+		<attribute name="Position" value="660 20" />
+		<attribute name="Size" value="600 20" />
+		<attribute name="Blend Mode" value="add" />
+		<attribute name="Horiz Alignment" value="Right" />
+		<attribute name="Color" value="0 1 0 1" />
+		<attribute name="Top Left Color" value="0 1 0 1" />
+		<attribute name="Top Right Color" value="0 1 0 1" />
+		<attribute name="Bottom Left Color" value="0 1 0 1" />
+		<attribute name="Bottom Right Color" value="0 1 0 1" />
+	</element>
+	<element type="Text">
+		<attribute name="Name" value="Nice" />
+		<attribute name="Position" value="240 680" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Color" value="1 1 1.85 1" />
+		<attribute name="Top Left Color" value="1 1 1.85 1" />
+		<attribute name="Top Right Color" value="1 1 1.85 1" />
+		<attribute name="Bottom Left Color" value="1 1 1.85 1" />
+		<attribute name="Bottom Right Color" value="1 1 1.85 1" />
+		<attribute name="Font" value="Font;Fonts/Louis George Cafe.ttf" />
+		<attribute name="Font Size" value="20" />
+		<attribute name="Text" value="Nice Work! Teleport back because we can upgrade your LASER!" />
+		<attribute name="Text Alignment" value="Center" />
+	</element>
+</element>
